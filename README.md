@@ -1,7 +1,13 @@
-# Website to PDF (Go + Rod)
+# rodent
 
-Simple Go CLI to convert a website URL into a PDF file using [`go-rod`](https://github.com/go-rod/rod).
+simple E2E testing library
 
+## Running from binary
+download binary from /bin folder
+```bash
+rodent -url "https://golang.org" -out "golang.pdf" -timeout 45s
+```
+## Run from source
 ## Requirements
 
 - Go 1.22+
@@ -13,7 +19,7 @@ Simple Go CLI to convert a website URL into a PDF file using [`go-rod`](https://
 go mod tidy
 ```
 
-## Usage
+## Usage 
 
 ```bash
 go run . -url "https://example.com" -out "example.pdf"
