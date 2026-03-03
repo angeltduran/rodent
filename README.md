@@ -2,10 +2,12 @@
 
 simple E2E testing library
 
-## Running from binary
-download binary from /bin folder
+## Run binary
+## Requirements
+- A Chromium-based browser available to launch/download
+download binary from /bin folder and run
 ```bash
-rodent -url "https://golang.org" -out "golang.pdf" -timeout 45s
+./rodent -url "https://example.com" -out "example_dot_com.pdf" -timeout 45s
 ```
 ## Run from source
 ## Requirements
